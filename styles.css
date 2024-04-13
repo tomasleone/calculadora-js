@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+  
+  .calculator {
+    width: 350px; /* Aumentamos el ancho */
+    height: 450px; /* Aumentamos la altura */
+    margin-right: 20px; /* Espacio a la derecha */
+    border: 3px solid #00ffff; /* Cambiamos el color del borde a un tono de cian */
+    border-radius: 20px; /* Aumentamos el radio de borde para dar un aspecto más suave */
+    background-color: #333; /* Cambiamos el color de fondo a un tono oscuro */
+    padding: 20px; /* Añadimos más espacio interno */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Añadimos una sombra azulada */
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px; /* Aumentamos el tamaño de la fuente */
+    background-color: #444; /* Cambiamos el color de fondo */
+    border: none; /* Quitamos el borde */
+    border-radius: 10px; /* Añadimos un radio de borde */
+    color: #00ffff; /* Cambiamos el color del texto a cian */
+    text-align: right; /* Alineamos el texto a la derecha */
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 20px; /* Aumentamos el tamaño de la fuente */
+    background-color: #00ffff; /* Cambiamos el color de fondo a cian */
+    border: none; /* Quitamos el borde */
+    border-radius: 10px; /* Añadimos un radio de borde */
+    color: #333; /* Cambiamos el color del texto */
+    cursor: pointer; /* Cambiamos el cursor al pasar sobre los botones */
+  }
+  
+  body {
+    background: linear-gradient(to bottom, #222222, #333333); /* Degradado suave de arriba hacia abajo con tonos de gris oscuro */
+  }
+  
+  
+  
+  
+  
+  
+  
+  .color-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.8); /* Cambiamos el color de fondo de la tabla de colores a uno opaco */
+    padding: 10px; /* Añadimos un poco de espacio interno */
+    border-radius: 10px; /* Aumentamos el radio de borde */
+    margin-left: 40px; /* Añadimos más margen a la izquierda para separar la tabla de colores de la calculadora */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); /* Añadimos un ligero efecto de sombra */
+  }
+  
+  .color-option {
+    width: 50px; /* Ajustamos el ancho */
+    height: 50px; /* Ajustamos la altura */
+    margin: 5px; /* Añadimos un poco de margen entre las opciones */
+    cursor: pointer; /* Cambiamos el cursor */
+    border-radius: 50%; /* Hacemos que los círculos sean redondos */
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.3); /* Añadimos un ligero efecto de sombra */
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif; /* Utilizamos la fuente Roboto o alguna otra fuente sans-serif moderna */
+    font-size: 22px; /* Ajustamos el tamaño del texto */
+    margin-top: 5px; /* Añadimos un poco de espacio superior */
+    color: #ccc; /* Cambiamos el color del texto a un tono de gris claro */
+  }
+  
+  
+  /* Estilo para el título */
+  .calculator-title {
+    font-family: 'Roboto', sans-serif; /* Cambiamos la fuente a Roboto o alguna otra fuente sans-serif moderna */
+    font-size: 26px; /* Tamaño del texto del título */
+    text-align: center; /* Alineación centrada */
+    margin-bottom: -100px; /* Reducimos el margen inferior */
+    margin-top: 15px; /* Eliminamos el margen superior para estar más cerca de la calculadora */
+    color: #ccc; /* Cambiamos el color del texto a un tono de gris claro */
+  }
+  
+  
+  /* Estilo para la línea de créditos */
+  .credits {
+    font-size: 12px; /* Tamaño del texto de los créditos */
+    text-align: center; /* Alineación centrada */
+    font-style: italic; /* Estilo de letra cursiva */
+    margin-top: 18px; /* Añadimos un poco de margen superior */
+  }
+  
